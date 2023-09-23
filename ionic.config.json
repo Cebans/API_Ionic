@@ -1,0 +1,7 @@
+{
+  "name": "API_ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
