@@ -7,7 +7,11 @@ export const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'Lista de estudiantes',
     pathMatch: 'full',
+  },
+  {
+    path: 'Lista de estudiantes',
+    loadComponent: () => import('./pages/student-list/student-list.page').then( m => m.StudentListPage)
   },
 ];
